@@ -11,7 +11,10 @@ the assignment
     get <- function() x
     setinverse <- function(inverse) invrs<<- inverse
     getinverse <- function() invrs
-    list(set = set, get = get, setinverse = setinverse,getinverse = getinverse)
+    
+    list(set = set, get = get,
+    setinverse = setinverse,
+    getinverse = getinverse)
     }
     
     cacheSolve <- function(x, ...) {
