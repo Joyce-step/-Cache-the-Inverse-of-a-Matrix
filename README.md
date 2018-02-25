@@ -2,7 +2,7 @@
 the assignment
 
 makeCacheMatrix <- function(x = matrix()) {
-       invrs <- NULL
++       invrs <- NULL
        set <- function(y) {
           x <<- y
         invrs<<- NULL
